@@ -1,0 +1,32 @@
+/* Estilo para los botones */
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4caf50; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Agregada la transición para la sombra */
+}
+
+/* Cambio de color al pasar el ratón sobre el botón y sombra */
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añadida la sombra al pasar el ratón */
+}
+
+/* Contenedor para centrar los botones en la pantalla */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta según sea necesario */
+}
+
+
+
+body {
+    margin: 0px auto;
+}
